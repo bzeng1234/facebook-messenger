@@ -1,0 +1,99 @@
+.content {
+    background-color: #f0f2f5;
+    min-height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-container {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.fb-signin-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-logo {
+    display: block;
+    width: 300px;
+    height: 105px;
+    margin-left: -30px;
+}
+
+.facebook-description {
+    width: 500px;
+    font-weight: 500;
+}
+
+.signin {
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.signin-input {
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    width: 300px;
+    height: 20px;
+    padding: 12px;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.signin-input:focus {
+    border-color: #1b74e4;
+}
+
+.login-btn,
+.new-acc-btn {
+    width: 320px;
+    height: 50px;
+    padding: 12px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.forgot-password {
+    margin: 5px;
+}
+
+.forgot-password:active {
+    color: #1877f2;
+}
+
+.new-acc-btn {
+    width: 170px;
+    font-size: 15px;
+    background-color: #42b72a;
+}
+
+.login-btn:hover,
+.new-acc-btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}
