@@ -3,7 +3,7 @@ import Footer from './Footer';
 import '../styles/signin.css';
 import image from '../assets/facebook-logo.svg';
 
-function SignIn() {
+function SignIn({click}) {
 
     return (
         <>
@@ -17,7 +17,7 @@ function SignIn() {
                     <form className="login-container" autoComplete="off">
                         <input type="text" className="signin-input" placeholder="Email or phone number" name="email"></input>
                         <input type="text" className="signin-input" placeholder="Password" name="password"></input>
-                        <button className="login-btn" type="submit">Log In</button>
+                        <button className="login-btn" type="submit" onClick={click}>Log In</button>
                         <a className="forgot-password" href="facebook.com">Forgot Password?</a>
                     </form>
                     <button className="new-acc-btn">Create new account</button>
