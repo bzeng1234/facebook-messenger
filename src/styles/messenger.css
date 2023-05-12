@@ -1,0 +1,35 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.chat-container {
+    flex: 1;
+}
+
+.messenger-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 900px;
+    height: 920px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.message-input {
+    width: 80%;
+    height: 30px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #f0f2f5;
+    text-align: center;
+}

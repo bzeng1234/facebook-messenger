@@ -1,10 +1,13 @@
 import React from "react";
+import '../styles/home.css'
+import Header from "./Header";
+import Messenger from "./Messenger";
 
-function Home(prop) {
-    console.log(prop)
+function Home({user}) {
     return (
         <div className="home">
-            Home
+            <Header user={user}/>
+            <Messenger />
         </div>
     );
 };

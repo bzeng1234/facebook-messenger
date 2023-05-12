@@ -1,0 +1,51 @@
+.header-container {
+    background-color: white;
+    height: 75px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05), 0 8px 16px rgba(0, 0, 0, .05);
+}
+
+.logo-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb-logo,
+.fb-search {
+    padding: 0px 10px;
+}
+
+.fb-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.fb-search {
+    width: 250px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #f0f2f5;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding: 0px 10px;
+}
+
+.profile-logo {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #f0f2f5;
+}
+
+.profile-name {
+    padding: 0px 10px;
+}
